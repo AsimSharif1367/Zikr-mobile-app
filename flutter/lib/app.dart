@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'screens/login_screen.dart';
 import 'screens/splash_screen.dart';
+import 'screens/onboarding_screen.dart';
 import 'theme/app_theme.dart';
 
 class ZikrReminderApp extends StatelessWidget {
@@ -18,6 +19,7 @@ class ZikrReminderApp extends StatelessWidget {
       routes: {
         SplashScreen.routeName: (_) => const SplashScreen(),
         LoginScreen.routeName: (_) => const LoginScreen(),
+        OnboardingScreen.routeName: (_) => const OnboardingScreen(),
       },
       initialRoute: SplashScreen.routeName,
     );

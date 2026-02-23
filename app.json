@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Zikr Reminder",
+    "slug": "zikr-reminder-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.zikrreminder"
+    },
+    "android": {
+      "package": "com.example.zikrreminder"
+    },
+    "plugins": ["expo-notifications"]
+  }
+}
